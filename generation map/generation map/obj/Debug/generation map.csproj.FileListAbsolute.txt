@@ -1,0 +1,7 @@
+C:\Users\windo\source\repos\generation map\generation map\bin\Debug\generation map.exe.config
+C:\Users\windo\source\repos\generation map\generation map\bin\Debug\generation map.exe
+C:\Users\windo\source\repos\generation map\generation map\bin\Debug\generation map.pdb
+C:\Users\windo\source\repos\generation map\generation map\obj\Debug\generation map.csprojAssemblyReference.cache
+C:\Users\windo\source\repos\generation map\generation map\obj\Debug\generation map.csproj.CoreCompileInputs.cache
+C:\Users\windo\source\repos\generation map\generation map\obj\Debug\generation map.exe
+C:\Users\windo\source\repos\generation map\generation map\obj\Debug\generation map.pdb
