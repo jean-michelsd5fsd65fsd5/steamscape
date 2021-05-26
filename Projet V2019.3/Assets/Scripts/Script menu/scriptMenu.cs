@@ -5,18 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class scriptMenu : MonoBehaviour
 {
-    public string sceneName;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject settingsWindow;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
     public void SetScene(string sceneName)
     {
         SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
@@ -26,4 +17,16 @@ public class scriptMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void CloseSettingWindow()
+    {
+        settingsWindow.SetActive(false);
+    }
+
+    public void SettingButton()
+    {
+        settingsWindow.SetActive(true);
+    }
+
+
 }

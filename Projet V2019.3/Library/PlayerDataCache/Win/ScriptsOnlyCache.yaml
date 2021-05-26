@@ -2,8 +2,15 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - scriptMenu
+    - scriptOptions
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -13,9 +20,15 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.Dropdown
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
   sceneClasses:
     Assets/Scenes/Menu Principal.unity:
     - Class: 1
@@ -38,7 +51,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -51,15 +70,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11312}
     - Class: 114
+      Script: {instanceID: 11314}
+    - Class: 114
       Script: {instanceID: 11352}
     - Class: 114
-      Script: {instanceID: 11734}
+      Script: {instanceID: 11516}
     - Class: 114
-      Script: {instanceID: 12114}
+      Script: {instanceID: 11648}
     - Class: 114
-      Script: {instanceID: 12590}
+      Script: {instanceID: 11736}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 11926}
+    - Class: 114
+      Script: {instanceID: 12116}
+    - Class: 114
+      Script: {instanceID: 12592}
+    - Class: 114
+      Script: {instanceID: 12928}
+    - Class: 114
+      Script: {instanceID: 12940}
+    - Class: 114
+      Script: {instanceID: 12954}
+    - Class: 114
+      Script: {instanceID: 12970}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -75,6 +108,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -144,7 +183,7 @@ ScriptsOnlyBuild:
     className: GroupTrack
   - hash:
       serializedVersion: 2
-      Hash: d91fcd9ac7bd86d3d771dd6171620fad
+      Hash: f709e07df57fa982ddb0a0cf91aeb1b3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: scriptMenu
@@ -226,6 +265,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 73c444b473770d805e4ee8a1333d07e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: scriptOptions
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
