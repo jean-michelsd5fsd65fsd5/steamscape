@@ -10,7 +10,7 @@ public class scriptMenu : MonoBehaviour
 
     public void SetScene(string sceneName)
     {
-        SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
 
     public void Quitter()
