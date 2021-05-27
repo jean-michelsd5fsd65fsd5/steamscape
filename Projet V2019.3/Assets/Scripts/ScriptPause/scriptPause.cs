@@ -20,6 +20,7 @@ public class scriptPause : MonoBehaviour
 
     void Start()
     {
+        ResumeGame();
         MainCamera.SetActive(true);
         UICamera.SetActive(false);
     }
