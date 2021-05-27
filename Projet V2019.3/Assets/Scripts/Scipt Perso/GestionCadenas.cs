@@ -19,7 +19,7 @@ public class GestionCadenas : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log("clic rectangle");
+        
         if (GestionCle.IsCléRécupéré)
         {
             this.gameObject.SetActive(false);
