@@ -2037,6 +2037,18 @@ CapsuleCollider:
   m_Height: 1.9094174
   m_Direction: 1
   m_Center: {x: 0, y: 0.958032, z: 0}
+--- !u!114 &433814552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433814545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b767d0efd9af73478d541a8ec71f56f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &437109574
 GameObject:
   m_ObjectHideFlags: 0
@@ -6249,7 +6261,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
+      objectReference: {fileID: 9100000, guid: 7fa3bc0f6c9585a48966844784d0f097, type: 2}
     - target: {fileID: -6057140222963153312, guid: 6049175ed259a89418606cc22c3c75a4,
         type: 3}
       propertyPath: m_ApplyRootMotion
@@ -6334,6 +6346,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 6049175ed259a89418606cc22c3c75a4,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6049175ed259a89418606cc22c3c75a4, type: 3}
