@@ -23,7 +23,7 @@ public class scriptNotes : MonoBehaviour
     {
         PanelNote.SetActive(true);
         TexteDeLaNote.SetActive(true);
-        scriptPause.isPanelNoteAffiché = true;
+        ScriptPause.isPanelNoteAffiché = true;
     }
 
 
