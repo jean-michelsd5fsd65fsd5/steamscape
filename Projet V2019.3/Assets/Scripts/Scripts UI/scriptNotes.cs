@@ -5,7 +5,6 @@ using UnityEngine;
 public class scriptNotes : MonoBehaviour
 {
     public GameObject PanelNote;
-
     public GameObject TexteDeLaNote;
 
     // Start is called before the first frame update

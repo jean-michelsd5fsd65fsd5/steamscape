@@ -74,6 +74,9 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Scripts\Scipt Perso\GestionCadenas.cs" />
+    <Compile Include="Assets\Scripts\Scipt Perso\GestionCle.cs" />
+    <Compile Include="Assets\Scripts\Scipt Perso\GestionEnigme.cs" />
     <Compile Include="Assets\Scripts\Script menu\scriptMenu.cs" />
     <Compile Include="Assets\Scripts\Script menu\scriptOptions.cs" />
     <Compile Include="Assets\Scripts\ScriptPause\ScriptPause.cs" />
